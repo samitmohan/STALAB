@@ -1,5 +1,5 @@
 // Add build files -> junit from build path
-package Q8;
+package triangle8;
 
 class Test {
     public static String triangle(int a, int b, int c) {

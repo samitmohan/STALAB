@@ -1,4 +1,4 @@
-package Q8;
+package triangle8;
 
 import static org.junit.Assert.assertEquals;
 
