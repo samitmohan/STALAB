@@ -1,4 +1,4 @@
-// Check off main option when creaeting project (in the bottom : THEN ONLY IT WILL WORK)
+// Check off module-info option while making project
 // Add paths correctly to excel sheets and add build path -> selenium and jar files
 import java.io.FileOutputStream;
 import jxl.Sheet;
