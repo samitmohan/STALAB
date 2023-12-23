@@ -1,4 +1,5 @@
 def check(day, month):
+    # months with 30 days (April, June, September, November) and if the day is 31
     if (month == 4 or month == 6 or month == 9 or month == 11) and day == 31:
         return 1
     else:

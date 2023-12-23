@@ -1,4 +1,5 @@
-import java.io.FileInputStream;
+// Check off main option when creaeting project (in the bottom : THEN ONLY IT WILL WORK)
+// Add paths correctly to excel sheets and add build path -> selenium and jar files
 import java.io.FileOutputStream;
 import jxl.Sheet;
 import jxl.Workbook;
