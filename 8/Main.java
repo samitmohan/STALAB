@@ -14,11 +14,9 @@ public class Main {
         if (side1 && side2 && side3) {
             // check for triangle
             if (a < (b + c) && b < (a + c) && c < (a + b)) {
-                if ((a == b) && (b == c))
-                    return "equilateral";
-                else if ((a != b) && (b != c) && (c != a)) {
-                    return "scalene";
-                } else {
+                if ((a == b) && (b == c)) return "equilateral";
+                else if ((a != b) && (b != c) && (c != a))  return "scalene";
+                else {
                     return "isosceles";
                 }
             } else {
