@@ -8,7 +8,6 @@ def main():
         if not s1: print("a not in range")
         if not s2: print("b not in range")
         if not s3: print("c not in range")
-        check = (not s1) or (not s2) or (not s3)
         if s1 and s2 and s3:
             if (a < (b+c)) and (b < (a+c)) and (c < (a+b)):
                     if a == b ==c: print("Equilateral")
