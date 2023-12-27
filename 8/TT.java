@@ -1,7 +1,8 @@
+// import static org.testng.Assert.assertEquals;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class TT {
+public class TestTriangle {
     @Test
     public void testTriangle() {
         Main obj = new Main();
