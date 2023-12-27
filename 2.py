@@ -47,7 +47,7 @@ print(f"Total sales : {sales}")
 if sales > 1800:
     com = 0.10 * 1000 + 0.15 * 800 + 0.20 * (sales-1800)
 elif sales > 1000:
-    com = 0.10 * sales + 0.15 * (sales-1000)
+    com = 0.10 * 1000 + 0.15 * (sales-1000)
 else:
     com = 0.10 * sales
 
